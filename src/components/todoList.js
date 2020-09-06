@@ -13,7 +13,7 @@ class TodoList extends Component {
     //load something before render
     componentDidMount() {
         //load
-        this.props.LoadTodoActionThunk
+        this.props.LoadTodoActionThunk()
     }
     
     handleDelete = e => {
